@@ -10,13 +10,13 @@ function App() {
       <h1>🚀 Ronak's First Netlify Deployment</h1>
       <p>Hello! This is a React + TypeScript site deployed on Netlify.</p>
     </div>
+      The count is {count}
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          Add
         </button>
-        
         <button onClick={() => setCount((count) => count - 1)}>
-          count is {count}
+          Subtract
         </button>
       </div>
     </>
